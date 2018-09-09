@@ -1,0 +1,45 @@
+
+a {
+    font-family: arial,sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    color: black;
+    display: block;
+    font-size: 13px;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+li a:hover{
+    text-decoration: underline;
+}
+
+img {
+    display: flex;
+    height: 44px;
+    margin: 0 auto;
+    width: 548px;
+    z-index: 3px;
+}
+
+input {
+    border-radius: 2px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    box-sizing: border-box;
+    display: flex;
+    height: 44px;
+    margin: 0 auto;
+    width: 548px;
+    z-index: 3px;
+}
