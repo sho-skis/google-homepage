@@ -1,8 +1,9 @@
 
-a {
+body {
     font-family: arial,sans-serif;
-}
 
+}
+/* 
 ul {
     list-style-type: none;
     margin: 0;
@@ -23,23 +24,42 @@ li a {
 
 li a:hover{
     text-decoration: underline;
+} */
+
+.logo img {
+    display: block;
+    height: 92px;
+    margin: auto;
+    padding: 109px 0px 0px 0px;
+    width: 272px;
 }
 
-img {
-    display: flex;
-    height: 44px;
-    margin: 0 auto;
-    width: 548px;
-    z-index: 3px;
+.search_section {
+    display: block;
+    height: 200px;
+    margin: 0px auto;
 }
 
-input {
+.search_section input {
+    background: #fff;
+    background-image: url('img/googlemic_color_24dp.png');
+    background-position: 420px center;
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    border: 1px solid #ccc;
     border-radius: 2px;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
     box-sizing: border-box;
-    display: flex;
+    display: block;
     height: 44px;
+    outline: none;
     margin: 0 auto;
-    width: 548px;
-    z-index: 3px;
+    padding: 5x 8px 0px 16px;
+    width: 484px;
+   
 }
+
+.search_section input:hover {
+    box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
+}
+
